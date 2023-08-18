@@ -1,0 +1,55 @@
+.userTable{
+    padding: 20px;
+    margin-top: 20px;
+}
+Table{
+   
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+   
+}
+
+td, th {
+    border: 1px solid;
+    padding: 10px;
+  text-align: left;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.edit{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.delete{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.details{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 112, 147);
+    color: white;
+    cursor: pointer;
+}
