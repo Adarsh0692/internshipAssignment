@@ -26,7 +26,7 @@ export default function Home() {
       <button onClick={() => navigate(`/create`)} className="addBtn">
         Add User
       </button>
-      {users.length > 0 ? <UserList users={users} /> : <Loader />}  // getting user list here
+      {users.length > 0 ? <UserList users={users} /> : <Loader />} 
     </div>
   );
 }
